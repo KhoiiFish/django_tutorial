@@ -1,0 +1,31 @@
+# IDE's
+.idea/*
+!.idea/runConfigurations
+.idea/runConfigurations/_*
+*.iml
+
+*.pyc
+*.egg-info/
+*.log
+dist/
+build/
+.vscode/
+.pytest_cache
+
+# opened xl files
+~*.xlsx
+~$*.xls*
+
+# virtual envs
+*venv*/
+*.*env/
+
+# tests
+env/
+
+# project specific
+scripts/data/*
+
+*.json_diff
+
+node_modules/
